@@ -5,6 +5,9 @@ import ClassBasedComponent from './components/ClassBasedComponent'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import ParentComponent from './components/ParentComponent'
+import Counter from './components/Counter'
+import Toggle from './components/Toggle'
+import Hide_show from './components/Hide_show'
 
 
 function App() {
@@ -16,23 +19,29 @@ function App() {
         flex-direction: column;
         min-height: 100vh; */}
 
-
+      {/* 
       <Header />
-      <main className='flex-grow-1'>
+      <main className='flex-grow-1'> */}
 
-        {/*       
+      {/*       
             <br /><br />
             <h2>Welcome To ReactJS</h2>
             <p>ReactJS popural language</p>
             <FunctionBasedComponent />
             <ClassBasedComponent /> 
           */}
-
+      {/* 
         <ParentComponent />
 
       </main>
-      <Footer />
+      <Footer /> */}
       {/* </div > */}
+
+      {/* <Counter /> */}
+
+      {/* <Toggle /> */}
+
+      <Hide_show />
     </>
   )
 }
