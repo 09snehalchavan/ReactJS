@@ -8,6 +8,8 @@ import ParentComponent from './components/ParentComponent'
 import Counter from './components/Counter'
 import Toggle from './components/Toggle'
 import Hide_show from './components/Hide_show'
+import UsersData from './components/UsersData'
+// import UseEffectExample from './components/UseEffectExample'
 
 
 function App() {
@@ -41,7 +43,13 @@ function App() {
 
       {/* <Toggle /> */}
 
-      <Hide_show />
+      {/* <Hide_show /> */}
+
+      {/* <UseEffectExample /> */}
+
+      <UsersData />
+
+
     </>
   )
 }
