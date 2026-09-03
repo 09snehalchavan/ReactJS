@@ -9,10 +9,17 @@ import Counter from './components/Counter'
 import Toggle from './components/Toggle'
 import Hide_show from './components/Hide_show'
 import UsersData from './components/UsersData'
-// import UseEffectExample from './components/UseEffectExample'
+import UseRef_example from './components/UseRef_example'
+import { UserContext_example } from './components/UserContext_example'
+import Home from './components/Home'
+import About from './components/About'
+import UseMemo_example from './components/UseMemo_example'
 
 
 function App() {
+
+  const [user] = useState("ABC");
+
   return (
     <>
       {/* <div className='d-flex flex-column min-vh-100'> */}
@@ -47,8 +54,18 @@ function App() {
 
       {/* <UseEffectExample /> */}
 
-      <UsersData />
+      {/* <UsersData /> */}
 
+      {/* <UseRef_example /> */}
+
+      {/* <UserContext_example.Provider value={user}>
+
+        <Home />
+        <About />
+
+      </UserContext_example.Provider> */}
+
+      <UseMemo_example />
 
     </>
   )
