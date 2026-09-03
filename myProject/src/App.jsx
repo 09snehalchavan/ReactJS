@@ -14,6 +14,7 @@ import { UserContext_example } from './components/UserContext_example'
 import Home from './components/Home'
 import About from './components/About'
 import UseMemo_example from './components/UseMemo_example'
+import UseCallback_example from './components/UseCallback_example'
 
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
       </UserContext_example.Provider> */}
 
       <UseMemo_example />
+      <br /><br />
+      <UseCallback_example />
 
     </>
   )

@@ -1,12 +1,14 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useState } from 'react'
 
 const UseMemo_example = () => {
 
-    const [number, setNumber] = useState(5);
+    const [number, setNumber] = useState(1);
 
     const square = useMemo(() => {
 
-    })
+        return number * number;
+
+    }, [number]);
 
     return (
         <>
