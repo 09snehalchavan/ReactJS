@@ -15,6 +15,8 @@ import Home from './components/Home'
 import About from './components/About'
 import UseMemo_example from './components/UseMemo_example'
 import UseCallback_example from './components/UseCallback_example'
+import Event_Handling1 from './components/Event_Handling1'
+import Conditional_rendering_1 from './components/Conditional_rendering_1'
 
 
 function App() {
@@ -66,9 +68,13 @@ function App() {
 
       </UserContext_example.Provider> */}
 
-      <UseMemo_example />
+      {/* <UseMemo_example />
       <br /><br />
-      <UseCallback_example />
+      <UseCallback_example /> */}
+
+      {/* <Event_Handling1 /> */}
+
+      <Conditional_rendering_1 />
 
     </>
   )
