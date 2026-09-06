@@ -42,14 +42,14 @@ function App() {
             <FunctionBasedComponent />
             <ClassBasedComponent /> 
           */}
-      {/* 
-        <ParentComponent />
 
-      </main>
-      <Footer /> */}
+      {/* <ParentComponent /> */}
+
+      {/* </main > */}
+      {/* <Footer /> */}
       {/* </div > */}
 
-      {/* <Counter /> */}
+      <Counter />
 
       {/* <Toggle /> */}
 
@@ -72,7 +72,7 @@ function App() {
       <br /><br />
       <UseCallback_example /> */}
 
-      <Event_Handling1 />
+      {/* <Event_Handling1 /> */}
 
       {/* <Conditional_rendering_1 /> */}
 
