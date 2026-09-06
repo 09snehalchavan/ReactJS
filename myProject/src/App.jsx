@@ -72,9 +72,9 @@ function App() {
       <br /><br />
       <UseCallback_example /> */}
 
-      {/* <Event_Handling1 /> */}
+      <Event_Handling1 />
 
-      <Conditional_rendering_1 />
+      {/* <Conditional_rendering_1 /> */}
 
     </>
   )

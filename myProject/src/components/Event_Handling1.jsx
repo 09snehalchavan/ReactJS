@@ -17,6 +17,14 @@ const Event_Handling1 = () => {
         alert("Form Submitted Successfully...!!!");
     }
 
+    const handleMouseUp = (e) => {
+        e.target.style.backgroundColor = 'red';
+    }
+
+    const handleMouseOut = (e) => {
+        e.target.style.backgroundColor = 'blue';
+    }
+
     return (
         <>
             <h3>Event Handling</h3>
@@ -35,6 +43,11 @@ const Event_Handling1 = () => {
                 <input type="text" /><br /><br />
                 <button type='submit'>Submit</button>
             </form>
+            <br /><br />
+
+            {/* <img src="https://www.amazon.in/Beautyful-Flower-Packing-Quality-Secure/dp/B0DL37BCF8" alt="Image not Found" onMouseUp={handleMouseUp} /> */}
+
+            <button onMouseUp={handleMouseUp} onMouseOut={handleMouseOut}>Mouse Up</button>
 
         </>
     )
