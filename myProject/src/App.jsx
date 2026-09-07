@@ -17,6 +17,7 @@ import UseMemo_example from './components/UseMemo_example'
 import UseCallback_example from './components/UseCallback_example'
 import Event_Handling1 from './components/Event_Handling1'
 import Conditional_rendering_1 from './components/Conditional_rendering_1'
+import UseEffectExample from './components/UseEffectExample'
 
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
       {/* <Footer /> */}
       {/* </div > */}
 
-      <Counter />
+      {/* <Counter /> */}
 
       {/* <Toggle /> */}
 
@@ -58,6 +59,8 @@ function App() {
       {/* <UseEffectExample /> */}
 
       {/* <UsersData /> */}
+
+      <UseEffectExample />
 
       {/* <UseRef_example /> */}
 
