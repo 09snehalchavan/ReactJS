@@ -18,6 +18,8 @@ import UseCallback_example from './components/UseCallback_example'
 import Event_Handling1 from './components/Event_Handling1'
 import Conditional_rendering_1 from './components/Conditional_rendering_1'
 import UseEffectExample from './components/UseEffectExample'
+import StudentDetails from './components/StudentDetails'
+import Register from './components/Register'
 
 
 function App() {
@@ -60,7 +62,7 @@ function App() {
 
       {/* <UsersData /> */}
 
-      <UseEffectExample />
+      {/* <UseEffectExample /> */}
 
       {/* <UseRef_example /> */}
 
@@ -78,6 +80,10 @@ function App() {
       {/* <Event_Handling1 /> */}
 
       {/* <Conditional_rendering_1 /> */}
+
+      <Register />
+
+      {/* <StudentDetails /> */}
 
     </>
   )
