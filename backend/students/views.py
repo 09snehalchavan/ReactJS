@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 
@@ -7,6 +7,8 @@ from .models import Student
 
 # Create your views here.
 
+def home(request):
+    return HttpResponse("Home Page")
 
 @csrf_exempt
 def register_student(request):
